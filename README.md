@@ -2,5 +2,5 @@
 
 ## Vanilla JS отображение друзей в профиле контакта на основе данных из JSON
 
-(./readme/contacts.png)
-(./readme/contact.png)
+![Untitled](./readme/contacts.png)
+![Untitled](./readme/contact.png)
