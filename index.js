@@ -38,7 +38,7 @@ const displayFriends = (contacts, id, popularFriends) => {
   }</div>
   <div>
     <ul>
-      <li class="people-title">Друзья</li>
+      <li class="people-title">Friends</li>
       ${contact.friends
         .map((friend) => {
           return `<li><i class="fa fa-male"></i><span>${
@@ -46,13 +46,13 @@ const displayFriends = (contacts, id, popularFriends) => {
           }</span></li>`;
         })
         .join("")}
-        <li class="people-title">Не в друзьях</li>
+        <li class="people-title">Not in friends</li>
         ${notFriends
           .map((a) => {
             return `<li><i class="fa fa-male"></i><span>${a.name}</span></li>`;
           })
           .join("")}
-          <li class="people-title">Популярные люди</li> 
+          <li class="people-title">Popular people</li> 
           ${popularFriends
             .map((a) => {
               return `<li><i class="fa fa-male"></i><span>${a.name}</span></li>`;

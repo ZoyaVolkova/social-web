@@ -252,7 +252,7 @@ body {
   position: absolute;
   top: 25px;
   left: 120px;
-
+  font-weight: bold;
   z-index: 2;
 }
 
